@@ -20,8 +20,8 @@ import { routes } from './app.routes';
      IonicModule.forRoot(),
       AppRoutingModule,
       AngularFireModule.initializeApp(firebaseConfig),
-      AngularFireAuthModule,
-      RouterModule.forRoot(routes)
+      AngularFireAuthModule
+      //RouterModule.forRoot(routes)
     ],
   providers: [
     StatusBar,
